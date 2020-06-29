@@ -1,5 +1,5 @@
 # Logistic Regression models in Box.ml
-Box.ml is the easiest and fastest way to put machine learning models in the hands of your users. With a simple drag and drop your model is just ready to use. Then, you can call your model safely from anywhere, including Excel, blogs and apps. 
+[Box.ml](https://box.ml/login) is the easiest and fastest way to put machine learning models in the hands of your users. With a simple drag and drop your model is just ready to use. Then, you can call your model safely from anywhere, including Excel, blogs and apps. 
 
 Here, your are going to train a [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression) model using the classic [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). Then, you will be able to safely call it in a matter of seconds by just droping it in Box.ml.
 
@@ -55,12 +55,12 @@ Now, copy the code snippet from the *cURL* or *Python* tab and test it from your
 
 You should see the predictions coming from your model that is now live in box.ml.
 
-You can use the code in the HTML tab to show a prediction box in your website or blog:
+You can use the code in the HTML tab to show a prediction box in your website or blog like shown below:
 
-![Box.ml predicting](img/blog.png)
+![Box.ml predicting widget](img/blog.png)
 
 Your readers will be able to enter the values and make predictions by themselves.
 
 Lastly, from the Excel tab you can download an Excel file ready to use:
 
-![Box.ml predicting](img/excel.png)
+![Box.ml predicting from Excel](img/excel.png)

@@ -3,7 +3,7 @@
 
 In this short tutorial, your are going to train a [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression) model using the classic [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). After dropping it in box.ml, the tutorial walks you through the simple steps to start using it.
 
-You will use the popular [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) libray to train the Machine learning model that you will be able to deploy in box.ml.
+You will use the popular [scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) libray to train the Machine learning model that you will need to complete this tutorial.
 
 # Setup
 Please, feel free to skip the steps that you don't need.
@@ -38,7 +38,7 @@ python train.py
 The trained model will be exported to the file: *iris_logistic_regression.pkl*
 
 # Box.ml
-In order to make your model available from anywhere, login into [box.ml](https://box.ml/login), select or create a new Deployment, then drag & drop the file *iris_logistic_regression.pkl* in the box, similar to the image below. Your model will be ready-to-use in a second.
+In order to make your model available from anywhere: 1) login into [box.ml](https://box.ml/login), 2) select or create a new Deployment, 3) drag and drop the file *iris_logistic_regression.pkl* in the box, similar to the image below. Your model will be ready-to-use in a second.
 
 ![Box.ml drop model box](img/drop.png)
 
@@ -48,22 +48,20 @@ You can click the Predict button and the result of the prediction will be shown 
 
 Set the right variable names and test with a few of input examples to confirm that the predictions are correct.
 
-The code snippet provided in the *cURL* and *Python* tabs is ready to use. You can copy and test it from your terminal. You should see the predictions coming from your model that is now live in [box.ml](https://box.ml/login).
+The code snippet provided in the *cURL* and *Python* tabs is ready-to-use. You can copy and test it from your terminal. You should see the predictions coming from your model that is now live in [box.ml](https://box.ml/login).
 
 ![Box.ml predicting](img/code.png)
 
-You can use the code in the HTML tab to show a prediction box in your website or blog like shown in the image below:
+You can use the code in the HTML tab to show a prediction box in your website or blog like shown in the image below. Your readers will be able to enter the values and make predictions by themselves.
 
 ![Box.ml predicting widget](img/blog.png)
 
-Your readers will be able to enter the values and make predictions by themselves.
-
-Lastly, from the Excel tab, you can download an Excel file ready to use:
+Lastly, from the Excel tab, you can download an Excel file ready-to-use:
 
 ![Box.ml predicting from Excel](img/excel.png)
 
 # How it works
-Everytime you drop a trained model in [box.ml](https://box.ml/login) you receive:  
+Every time you drop a trained model in [box.ml](https://box.ml/login) you receive:  
 - A Unique Identifier for your model
 - A Client Id and a Client Secret
 

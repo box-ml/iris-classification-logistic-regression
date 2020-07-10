@@ -38,15 +38,19 @@ python train.py
 The trained model will be exported to the file: *iris_logistic_regression.pkl*
 
 # Box.ml
-In order to make your model available from anywhere: 1) login into [box.ml](https://box.ml/login), 2) select or create a new Deployment, 3) drag and drop the file *iris_logistic_regression.pkl* in the box, like shown in the image below, 3) your model will be ready-to-use in a second.
+In order to make your model available from anywhere: 1) login into [box.ml](https://box.ml/login), 2) select or create a new Deployment, 3) drag and drop the file *iris_logistic_regression.pkl* in the box, like shown in the image below. 
 
 ![Box.ml drop model box](img/drop.png)
+
+Your model will be ready-to-use in a second.
+
+![Box.ml predicting](img/predict.png)
 
 You can click the Predict button in the Test tab, and the result of the prediction will be shown next to the last variable value.
 
 You can change the name of the variables in the table. You can set the names of your choice, but the order must match the order of the columns of the training dataset.
 
-![Box.ml predicting](img/predict.png)
+
 
 For the [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set) you could set the variables and test your trained model as follow: 
 

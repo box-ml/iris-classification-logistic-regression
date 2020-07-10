@@ -38,25 +38,36 @@ python train.py
 The trained model will be exported to the file: *iris_logistic_regression.pkl*
 
 # Box.ml
-In order to make your model available from anywhere: 1) login into [box.ml](https://box.ml/login), 2) select or create a new Deployment, 3) drag and drop the file *iris_logistic_regression.pkl* in the box, similar to the image below. Your model will be ready-to-use in a second.
+In order to make your model available from anywhere: 1) login into [box.ml](https://box.ml/login), 2) select or create a new Deployment, 3) drag and drop the file *iris_logistic_regression.pkl* in the box, like shown in the image below, 3) your model will be ready-to-use in a second.
 
 ![Box.ml drop model box](img/drop.png)
 
-You can click the Predict button and the result of the prediction will be shown next to the last variable value:
+You can click the Predict button in the Test tab, and the result of the prediction will be shown next to the last variable value.
+
+You can change the name of the variables in the table. You can set the names of your choice, but the order must match the order of the columns of the training dataset.
 
 ![Box.ml predicting](img/predict.png)
 
-Set the right variable names and test with a few of input examples to confirm that the predictions are correct.
+For the [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set) you could set the variables and test your trained model as follow: 
 
-The code snippet provided in the *cURL* and *Python* tabs is ready-to-use. You can copy and test it from your terminal. You should see the predictions coming from your model that is now live in [box.ml](https://box.ml/login).
+| Sepal Length | Sepal Width | Petal Length | Petal Width |     |
+| ------------ | ----------- | ------------ | ----------- | --- |
+| 1.0          | 1.0         | 1.0          | 1.0         | [0] |
+| 6.0          | 2.0         | 4.0          | 1.0         | [1] |
+| 4.0          | 4.0         | 2.0          | 6.0         | [2] |
 
-![Box.ml predicting](img/code.png)
+* [0] Corresponds to Iris-setosa class
+* [1] Corresponds to Iris-versicolor class
+* [2] Corresponds to Iris-virginica class
+
+## Code snippets
+The code snippet provided in the *cURL* and *Python* tabs are ready-to-use. You can copy and test it from your terminal. You should see the predictions coming from your model that is now live in [box.ml](https://box.ml).
 
 You can use the code in the HTML tab to show a prediction box in your website or blog like shown in the image below. Your readers will be able to enter the values and make predictions by themselves.
 
 ![Box.ml predicting widget](img/blog.png)
 
-Lastly, from the Excel tab, you can download an Excel file ready-to-use:
+Lastly, from the Excel tab, you can download an Excel file that is ready-to-use as well. You can distribute the Excel file among your users, and they will be able to predict with your model.
 
 ![Box.ml predicting from Excel](img/excel.png)
 
@@ -72,4 +83,4 @@ Technically speaking, your model is made available via a [REST API](https://en.w
 
 The combination of the model's Unique Identifier, the Client Id and the Client Secret provide enough security to keep the use of your models safe of intruders.
 
-You will have to share the model's Unique Identifier among your users but as a safe practice, create a different Client Id and Client Secret for eachone.
+You will have to share the model's Unique Identifier among your users but as a good practice, create a different Client Id and Client Secret for each one.

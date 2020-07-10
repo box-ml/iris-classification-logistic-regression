@@ -61,6 +61,8 @@ For the [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set) you c
 * [2] Corresponds to Iris-virginica class
 
 ## Code snippets
+![Box.ml predicting](img/code.png)
+
 The code snippet provided in the *cURL* and *Python* tabs are ready-to-use. You can copy and test it from your terminal. You should see the predictions coming from your model that is now live in [box.ml](https://box.ml).
 
 You can use the code in the HTML tab to show a prediction box in your website or blog like shown in the image below. Your readers will be able to enter the values and make predictions by themselves.

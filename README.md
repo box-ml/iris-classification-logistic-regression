@@ -1,5 +1,5 @@
 # Logistic Regression models in Box.ml
-[Box.ml](https://box.ml/login) is the easiest and fastest way to put machine learning models in the hands of your users. It takes a simple drag and drop and your model is ready-to-use; In a matter of seconds you can call your model from anywhere including Excel, blogs and apps.
+[Box.ml](https://box.ml/login) is the easiest and fastest way to put machine learning models in the hands of your users. It takes a simple drag and drop and your model is ready-to-use; In a matter of seconds you can call your model from anywhere including Apps, Blogs, Excel, and more.
 
 In this short tutorial, your are going to train a [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression) model using the classic [Iris Dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set). After dropping it in box.ml, the tutorial walks you through the simple steps to start using it.
 
